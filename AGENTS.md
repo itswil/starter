@@ -3,11 +3,11 @@
 ## Commands
 
 ```bash
-bun run dev      # Start dev server
-bun run build    # Build for production
-bun run preview  # Preview production build
-bun run lint     # Lint with oxlint
-bun run fmt      # Format with oxfmt
+pnpm run dev      # Start dev server
+pnpm run build    # Build for production
+pnpm run preview  # Preview production build
+pnpm run lint     # Lint with oxlint
+pnpm run fmt      # Format with oxfmt
 ```
 
 ## Commit Messages
