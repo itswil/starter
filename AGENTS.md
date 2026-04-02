@@ -13,6 +13,7 @@ bun run fmt      # Format with oxfmt
 ## Commit Messages
 
 Use [Conventional Commits](https://www.conventionalcommits.org/):
+
 - `feat(component): add new feature`
 - `fix: resolve bug`
 - `style: update styling`
