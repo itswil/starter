@@ -10,7 +10,8 @@
     "fmt:check": "oxfmt --check",
     "lint": "oxlint",
     "lint:fix": "oxlint --fix",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "vitest"
   },
   "dependencies": {
     "react": "^19.2.5",
@@ -22,10 +23,13 @@
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.1",
+    "@vitest/browser-playwright": "^4.1.4",
     "oxfmt": "^0.45.0",
     "oxlint": "^1.59.0",
     "tailwindcss": "^4.2.2",
     "typescript": "^6.0.2",
-    "vite": "^8.0.8"
+    "vite": "^8.0.8",
+    "vitest": "^4.1.4",
+    "vitest-browser-react": "^2.2.0"
   }
 }
