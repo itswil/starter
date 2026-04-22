@@ -6,10 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "fmt": "oxfmt",
-    "fmt:check": "oxfmt --check",
-    "lint": "oxlint",
-    "lint:fix": "oxlint --fix",
+    "fix": "oxfmt && oxlint --fix",
     "preview": "vite preview",
     "test": "vitest"
   },
@@ -24,7 +21,7 @@
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.1",
     "@vitest/browser-playwright": "^4.1.4",
-    "oxfmt": "^0.45.0",
+    "oxfmt": "^0.46.0",
     "oxlint": "^1.59.0",
     "tailwindcss": "^4.2.2",
     "typescript": "^6.0.2",
