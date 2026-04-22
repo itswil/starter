@@ -3,11 +3,10 @@
 ## Commands
 
 ```bash
-pnpm run dev      # Start dev server
-pnpm run build    # Build for production
-pnpm run preview  # Preview production build
-pnpm run lint     # Lint with oxlint
-pnpm run fmt      # Format with oxfmt
+pnpm dev      # Start dev server
+pnpm build    # Build for production
+pnpm preview  # Preview production build
+pnpm fix      # Fix lint and format errors; run this after every code change
 ```
 
 ## Commit Messages
