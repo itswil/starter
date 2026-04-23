@@ -6,7 +6,6 @@
 pnpm dev      # Start dev server
 pnpm build    # Build for production
 pnpm preview  # Preview production build
-pnpm fix      # Fix lint and format errors; run this after every code change
 ```
 
 ## Commit Messages
@@ -32,3 +31,7 @@ Add `!` before `:` for breaking changes (e.g., `feat!: breaking change` or `feat
 - Vite
 - TailwindCSS v4
 - oxlint + oxfmt for linting/formatting
+
+## Git Hooks (Husky)
+
+Configured in `.husky/`
