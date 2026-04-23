@@ -1,8 +1,8 @@
-# Starter
+# 🤖 AI Agent Starter
 
 A minimal starter template for building AI agent projects, created by and configured for AI agents.
 
-## Stack
+## 🛠️ Stack
 
 - React 19
 - TypeScript 6
@@ -12,7 +12,7 @@ A minimal starter template for building AI agent projects, created by and config
 - Vitest
 - Husky pre-commit, pre-push hooks
 
-## Download Template
+## 📥 Download Template
 
 Run one of the following:
 
@@ -23,14 +23,14 @@ bunx giget gh:itswil/starter my-new-project
 # nobody uses yarn
 ```
 
-## Getting Started (Local Development)
+## 🚀 Getting Started (Local Development)
 
 ```bash
 pnpm i
 pnpm dev
 ```
 
-## Commands
+## ⚡ Commands
 
 ```bash
 pnpm dev      # Start dev server
