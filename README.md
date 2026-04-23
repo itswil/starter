@@ -1,6 +1,6 @@
-# 🤖 AI Agent Starter
+# 🤖 Starter Template
 
-A minimal starter template for building AI agent projects, created by and configured for AI agents.
+A minimal starter template for building projects, created by and configured for AI agents.
 
 ## 🛠️ Stack
 
