@@ -5,12 +5,12 @@ A minimal starter template for building projects, created by and configured for 
 ## 🛠️ Stack
 
 - React 19
-- TypeScript 6
+- TypeScript 7
 - Vite
 - TailwindCSS v4
 - oxlint + oxfmt
 - Vitest
-- Husky pre-commit, pre-push hooks
+- Husky pre-commit hook
 
 ## 📥 Download Template
 
@@ -35,7 +35,11 @@ pnpm dev
 ```bash
 pnpm dev      # Start dev server
 pnpm build    # Build for production
+pnpm preview  # Preview production build
 pnpm fmt      # Format code
+pnpm fmt:check # Check formatting
+pnpm lint     # Lint code
 pnpm lint:fix # Fix lint issues
-pnpm test     # Run tests
+pnpm test     # Run tests (watch mode)
+pnpm test:run # Run tests once (CI)
 ```

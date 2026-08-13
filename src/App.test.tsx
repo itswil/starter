@@ -1,6 +1,6 @@
 import { render } from "vitest-browser-react";
 import { expect, test } from "vitest";
-import App from "./App.jsx";
+import App from "./App.tsx";
 
 test("renders the title", async () => {
   const { getByText } = await render(<App />);
