@@ -10,6 +10,7 @@ A minimal starter template for building projects, created by and configured for 
 - TailwindCSS v4
 - oxlint + oxfmt
 - Vitest
+- Zod
 - Husky pre-commit hook
 
 ## 📥 Download Template
